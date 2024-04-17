@@ -190,7 +190,7 @@ for gate in range(len(gateList)):
                             [0,0,0,0,0,0,1,0]])
         qStates[qubit3-1] = np.dot(toffoli,qState)
     else:
-        print("Error here")
+        print("Error line 193")
 
 # Measure states (Born rule)
 # Initialise a classical register.
