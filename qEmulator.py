@@ -4,6 +4,8 @@ isq2 = 1.0/(2.0**0.5)
 ket0 = np.array([[1],
                  [0]], dtype=complex) # to be made zeros(2,1) with dtype=complex at next iteration
 
+# Create qubit class
+
 # Request the number of inputs 
 print("Input the number of qubits:")
 qubits = int(input())
